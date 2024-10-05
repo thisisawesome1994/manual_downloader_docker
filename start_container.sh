@@ -1,0 +1,1 @@
+docker run -d --name=manual_downloader --restart=always -v /volume3/video/YouTube:/volume3/video/YouTube -v /volume3/video/Porn/xnxx.com:/volume3/video/Porn/xnxx.com -v /volume3/music/MusicDL/FLAC/Qobuz:/volume3/music/MusicDL/FLAC/Qobuz -v /volume1/appdata/dockerNEWS:/volume1/appdata/dockerNEWS manual_downloader
